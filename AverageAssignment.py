@@ -8,3 +8,10 @@
 #Number 2: 11
 #Number 3: 12
 #The sum of 11 and 11 and 12 is 34 and the average is 11.333333333333334.
+num1 = int(input("Enter a number: "))
+num2 = int(input("Enter a second number: "))
+num3 = int(input("Enter a third number: "))
+sum = num1 + num2 + num3
+average = sum/3
+
+print(f"The sum of {num1} and {num2} and {num3} is {sum} and the average is {average}")
